@@ -33,3 +33,7 @@ function ajax(){
     
 }// ajax
 
+const btnBuscar = document.getElementById('btnBuscar');
+btnBuscar.addEventListener('click',function(){
+    ajax();
+})
