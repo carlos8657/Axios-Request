@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#contenedor{
+    text-align: center;
+    padding: 20px;
+    height: 1000px;
+    background-color: rgb(88, 88, 133);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    vertical-align: middle;
+}
+
+#datos{
+    margin: 20px;
+    border: 1px solid black;
+    height: 600px;
+    background-color: rgb(58, 115, 165);
+    width: 40%;
+    padding: 25px;
+    border: 3px solid black;
+}
+
+.input{
+    width: 350px;
+    height: 20px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.texto{
+    font-size: 24px;
+}
+
+#btnBuscar{
+    border-radius: 12px;
+    height: 35px;
+    width: 100px;
+}
